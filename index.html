@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A small, fast static website built with plain HTML and CSS.">
+    <title>Static Studio | Keep it simple</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Static Studio home">
+        <span class="brand-mark" aria-hidden="true">S.</span>
+        Static Studio
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#get-started">Get started <span aria-hidden="true">&rarr;</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Small website. Big possibilities.</p>
+          <h1 id="hero-title">Less setup.<br>More <span>creating.</span></h1>
+          <p class="intro">A little HTML. A little CSS. Everything you need to put your next idea on the web, and nothing you don't.</p>
+          <a class="button" href="#get-started">Make it yours <span aria-hidden="true">&rarr;</span></a>
+          <p class="hero-note">No framework. No build step. Just the web.</p>
+        </div>
+        <div class="preview" aria-label="Example of a simple HTML page">
+          <div class="preview-toolbar">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>index.html</span>
+          </div>
+          <pre><code><span class="code-muted">&lt;!doctype html&gt;</span>
+&lt;<span class="code-tag">html</span> lang="en"&gt;
+  &lt;<span class="code-tag">body</span>&gt;
+    &lt;<span class="code-tag">h1</span>&gt;Hello, world.&lt;/<span class="code-tag">h1</span>&gt;
+    &lt;<span class="code-tag">p</span>&gt;Start something great.&lt;/<span class="code-tag">p</span>&gt;
+  &lt;/<span class="code-tag">body</span>&gt;
+&lt;/<span class="code-tag">html</span>&gt;</code></pre>
+          <div class="preview-result">
+            <span class="result-label">THE RESULT</span>
+            <h2>Hello, world.</h2>
+            <p>Start something great.</p>
+            <span class="result-badge">100% possibility</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">BACK TO THE BASICS</p>
+          <h2 id="features-title">Simple by design.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01 /</span>
+            <h3>Light on purpose</h3>
+            <p>No dependencies, external fonts, or heavy libraries. Just a small page that gets straight to the point.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02 /</span>
+            <h3>Fits your screen</h3>
+            <p>A flexible layout that feels at home on a phone, a tablet, or your favorite big screen.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03 /</span>
+            <h3>Ready to make yours</h3>
+            <p>Change the words, pick your colors, and make it your own. Every detail is right there in the source.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="getting-started" id="get-started" aria-labelledby="start-title">
+        <div>
+          <p class="eyebrow">YOUR NEXT STEP</p>
+          <h2 id="start-title">Open. Edit. Refresh.</h2>
+          <p>Open <code>index.html</code> in your browser. Edit the content or styles in your favorite editor, then refresh to see your changes.</p>
+        </div>
+        <span class="start-symbol" aria-hidden="true">&lt;/&gt;</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Static Studio</span>
+      <p>Built with the basics. Made for your ideas.</p>
+      <a href="#">Back to top &uarr;</a>
+    </footer>
+  </body>
+</html>
