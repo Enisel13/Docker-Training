@@ -9,6 +9,7 @@ Open `index.html` directly in your web browser.
 
 Alternatively, if Node.js and npm are installed, run a local HTTP server from
 this directory:
+test
 
 ```sh
 npx http-server . -a 127.0.0.1 -p 8080 -c-1
