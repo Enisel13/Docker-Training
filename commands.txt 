@@ -1,0 +1,7 @@
+docker run -d -p 8080:80 learning-docker
+docker build -t learning-docker .
+
+#delete all images 
+docker image prune
+
+docker run -p 8080:8080 -v ${PWD}:/app learning-docker-live-reload
